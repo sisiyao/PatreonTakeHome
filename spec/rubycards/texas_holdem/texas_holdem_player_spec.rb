@@ -12,6 +12,13 @@ describe TexasHoldemPlayer do
     Card.new('Jack', 'Clubs'),
     Card.new('Queen', 'Clubs')
   ]}
+  let (:eights_full_of_jacks) { PokerHand.new [
+    Card.new(8, 'Diamonds'),
+    Card.new(8, 'Spades'),
+    Card.new(8, 'Clubs'),
+    Card.new('Jack', 'Diamonds'),
+    Card.new('Jack', 'Clubs')
+  ]}
 
   describe '#initialize' do
     it 'should start them with an empty hand' do

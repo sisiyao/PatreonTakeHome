@@ -77,5 +77,12 @@ module RubyCards
       "[ #{@cards[0..2].map(&:inspect).join ', '}, ..., #{@cards[-3..-1].map(&:inspect).join ', '} ]"
     end
 
+    def self.royal_ranks
+      RANKS[-5..-1]
+    end
+
+    def self.ranks
+      RANKS.map(&:to_s)
+    end
   end
 end
