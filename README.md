@@ -1,4 +1,4 @@
-# Texas Hold'em CLI -- An Interview Question by Patreon
+# Texas Hold'em CLI
 
 ## Prompt
 
